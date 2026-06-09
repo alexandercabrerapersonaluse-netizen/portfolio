@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <title>Dashboard - Page</title>
+        <link rel="stylesheet" href="style-2.css">
+        <script defer src="script.js"></script>
+    </head>
+        
+    <body>
+        
+        <nav>
+
+            <div class="title-container">
+                <h2 class="brand-title">My Portfolio</h2>
+            </div>
+
+            <div class="links-container">
+                <a class="link" href="index.html">Home</a>
+                <a class="link" href="dashboard.html">Dashboard</a>
+                <a class="link" href="upload.html">Upload</a>
+            </div>
+
+        </nav>
+
+        <div class="dashboard-container">
+
+            <h1>My Dashboard</h1>
+
+            <div class="stats">
+                <div>Total uploads using the choose file: <span id="total">0</span></div>
+                <div>Quiz upload using the choose file: <span id="quiz">0</span></div>
+                <div>Lab upload using the choose file: <span id="lab">0</span></div>
+                <div>Exam upload using the choose file: <span id="exam">0</span></div>
+                <p>Choose file can be found in the Upload Page</p>
+            </div>
+
+            <div class="filters">
+                <button onclick="filterUploads('quiz')">Quiz</button>
+                <button onclick="filterUploads('lab')">Lab</button>
+                <button onclick="filterUploads('exam')">Exam</button>
+            </div>
+
+            <div id="uploads" class="grid"></div>
+            
+        </div>
+
+        <h1>My Uploaded Pictures</h1>
+
+        <div class="gallery">
+
+            <img src="Quiz 1.jpg" alt="Picture 2">
+            <img src="Quiz 2.jpg" alt="Picture 3">
+            <img src="Quiz 3.jpg" alt="Picture 4">
+            <img src="Lab 1.jpg" alt="Picture 1">
+            <img src="Midterm.jpg" alt="Picture 5">
+
+        </div>
+
+        <br>
+        <br>
+
+         <div class="center-link">
+            <a href="https://alexandercabrerapersonaluse-netizen.github.io/simple-calculator___/">Please click to this to go to my Calculator!</a>
+        </div>
+    
+    </body>
+
+</html> 
